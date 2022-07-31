@@ -1,5 +1,5 @@
 FROM centos:latest
-RUN yum install -y httpd \
+RUN apt-get install httpd\
 zip \
 unzip
 ADD https://www.free-css.com/free-css-templates/page280/foodhut /var/www/html
